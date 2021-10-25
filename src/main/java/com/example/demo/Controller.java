@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     @GetMapping
-    public String hello(){
-        return "hello? This should trigger Jenkins!";
+    public String hello() {
+        return "a new change. Can start auto?";
     }
 }
+
